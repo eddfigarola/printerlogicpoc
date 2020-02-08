@@ -1,2 +1,2 @@
 # printerlogicpoc
-Automation with Python and Selenium - Probe of Concep
+Automation Testing with Python and Selenium - Probe of Concept
