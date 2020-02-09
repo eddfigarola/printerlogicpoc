@@ -1,0 +1,450 @@
+1581261502677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofilekFKSCE"
+1581261503399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261503399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261503399	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261503409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261506351	Marionette	INFO	Listening on port 62152
+1581261506527	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261519450	Marionette	INFO	Stopped listening on port 62152
+[Parent 8144, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 8144, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/[Parent 8144, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7324, C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261524282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileX9mBuh"
+1581261525000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261525000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261525000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261525000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 12940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1581261528559	Marionette	INFO	Listening on port 62198
+1581261528627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261547317	Marionette	INFO	Stopped listening on port 62198
+[Parent 12940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 12940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 769[Parent 12940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261552124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileNm0AI2"
+1581261552839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261552839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261552839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261552839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261555910	Marionette	INFO	Listening on port 62246
+1581261555961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261567784	Marionette	INFO	Stopped listening on port 62246
+[Parent 14564, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1543[Child 16868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 168[Parent 14564, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261572460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile9tYOmO"
+1581261573179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261573180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261573180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261573180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261576154	Marionette	INFO	Listening on port 62291
+1581261576286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261590398	Marionette	INFO	Stopped listening on port 62291
+[Parent 17652, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 17652, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 117[Parent 17652, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17868,
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261727220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileJ1KIJx"
+1581261727924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261727924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261727925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261727925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261730761	Marionette	INFO	Listening on port 62351
+1581261731054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261743131	Marionette	INFO	Stopped listening on port 62351
+[Parent 16152, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14596[Parent 16152, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 147[Parent 16152, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2692[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261747949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile77W2wb"
+1581261748712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261748712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261748713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261748713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261751949	Marionette	INFO	Listening on port 62396
+1581261752294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261766320	Marionette	INFO	Stopped listening on port 62396
+[Parent 3580, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4508, Chrome_[Child 2752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 27[Parent 3580, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[GPU 15364,
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261771058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofilexC0MAL"
+1581261771780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261771780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261771781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261771781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261774740	Marionette	INFO	Listening on port 62444
+1581261774903	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261786553	Marionette	INFO	Stopped listening on port 62444
+[Parent 10644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11500, C[Parent 10644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 184[Parent 10644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chil
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581261791405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileJ6Ilpp"
+1581261792129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581261792130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581261792130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581261792130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581261795272	Marionette	INFO	Listening on port 62490
+1581261795731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581261809499	Marionette	INFO	Stopped listening on port 62490
+[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262187089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileWueKP8"
+1581262187797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262187798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262187798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262187798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262190901	Marionette	INFO	Listening on port 62632
+1581262190925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262198276	Marionette	INFO	Stopped listening on port 62632
+[Parent 4464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[[Parent 4464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12[Parent 4464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3472, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262216991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofiled4KOFq"
+1581262217712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262217712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262217712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262217712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262220879	Marionette	INFO	Listening on port 62680
+1581262221317	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262229576	Marionette	INFO	Stopped listening on port 62680
+[Parent 18124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 18124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[GPU 5840
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262270101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofiles1Bp0u"
+1581262270815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262270815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262270815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262270816	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262273957	Marionette	INFO	Listening on port 62731
+1581262274425	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262282253	Marionette	INFO	Stopped listening on port 62731
+[Parent 14484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 90[Child 17508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17508, Chrome_ChildThread] WARNING: pipe error: 109:[Parent 14484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262287213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile4snsjj"
+1581262287949	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262287949	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262287950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262287950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262290875	Marionette	INFO	Listening on port 62780
+1581262291039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262304952	Marionette	INFO	Stopped listening on port 62780
+[Parent 12132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 733[Parent 12132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 12132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13320
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1770
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262310016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileqzbzsI"
+1581262310717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262310717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262310717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262310718	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262313466	Marionette	INFO	Listening on port 62826
+1581262313839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262325829	Marionette	INFO	Stopped listening on port 62826
+[Parent 15396, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 15396, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17[Parent 15396, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1307[GPU 7068, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262330506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile3oWnL7"
+1581262331261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262331261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262331261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262331262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262334290	Marionette	INFO	Listening on port 62872
+1581262334339	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262348116	Marionette	INFO	Stopped listening on port 62872
+[Parent 10604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Child 7716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7[Parent 10604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581262768881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileqSt4ov"
+1581262769601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262769601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262769601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262769602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262772595	Marionette	INFO	Listening on port 63219
+1581262772706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262851738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile8uC0PB"
+1581262852431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262852432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262852432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262852432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262855414	Marionette	INFO	Listening on port 63343
+1581262855563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581262951271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofile69WT2Q"
+1581262951987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581262951987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581262951987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581262951987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581262955029	Marionette	INFO	Listening on port 63474
+1581262955095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+1581263465861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileXLeMDo"
+1581263466564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581263466564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581263466564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581263466564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581263469554	Marionette	INFO	Listening on port 63966
+1581263469690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581263515846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofilegKYuXU"
+1581263516545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581263516545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581263516545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581263516546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581263519496	Marionette	INFO	Listening on port 64059
+1581263519671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1581263595348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUEDUA\\AppData\\Local\\Temp\\rust_mozprofileHeYRWb"
+1581263596068	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581263596069	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581263596069	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581263596069	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581263599058	Marionette	INFO	Listening on port 64185
+1581263599169	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 3686: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/common-1dc9b6bb93.js, line 12223: unreachable code after return statement
+JavaScript warning: https://trial2020.printercloud.com/assets/scripts/admin-46e311972b.js, line 19402: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead

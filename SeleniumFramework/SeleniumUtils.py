@@ -23,3 +23,8 @@ def is_element_with_text(driver, _id, __expected_text):
     wait_for_element_by_id(driver, _id)
     elem = driver.find_element_by_id(_id)
     return elem.is_displayed() & (__expected_text in driver.find_element_by_id("user-menu").get_attribute("text"))
+
+
+def get_count_of_elements_with_class(driver, __class_name):
+    elements = driver.find_elements_by_class_name(__class_name)
+    return len(elements)
