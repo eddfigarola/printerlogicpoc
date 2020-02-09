@@ -17,6 +17,11 @@ def send_data(driver, __element_id, __data):
     elem.send_keys(__data)
 
 
+def get_element_text_by_id(driver, __element_id):
+    wait_for_element_by_id(driver, __element_id)
+    return driver.find_element_by_id(__element_id).get_attribute("text")
+
+
 def click_element_by_id(driver, _id):
     wait_for_element_by_id(driver, _id)
     elem = driver.find_element_by_id(_id)

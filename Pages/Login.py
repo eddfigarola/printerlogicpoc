@@ -20,3 +20,7 @@ class Login:
         selenium_utils.send_data(self, "relogin_user", user)
         selenium_utils.send_data(self, "relogin_password", password)
         selenium_utils.click_element_by_id(self, "admin-login-btn")
+
+    def get_login_message(self):
+        login_message_id = "logintext"
+        selenium_utils.get_element_text_by_id(self, login_message_id)

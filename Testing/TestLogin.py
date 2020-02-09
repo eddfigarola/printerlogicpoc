@@ -27,6 +27,20 @@ class SeleniumTests(unittest.TestCase):
         admin_page.wait_until_page_loads(self.driver)
         assert (selenium_utils.is_element_with_text(self.driver, "user-menu", user_name))
 
+    def test_login_empty_form(self):
+        user_name = ""
+        password = ""
+        self.driver.get("https://trial2020.printercloud.com/admin/")
+        login_page.wait_until_page_loads(self.driver)
+        login_page.fill_login_form(self.driver, user_name, password)
+
+        try:
+            admin_page.wait_until_page_loads(self.driver)
+        except:
+            pass
+        else:
+            self.fail("Access was allowed with incorrect password")
+
     def test_login_invalid_password(self):
         user_name = "efigarola"
         password = "invalid"
