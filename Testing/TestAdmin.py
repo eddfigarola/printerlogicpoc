@@ -39,6 +39,9 @@ class SeleniumTestsAdmin(unittest.TestCase):
         final_printers_count = admin_page.get_count_of_printer(self.driver)
         assert (final_printers_count == (initial_printers_count - 1))
 
+    def tearDown(self):
+        self.driver.close()
+
     @classmethod
     def tearDownClass(cls):
         print("Test Execution Completed")
