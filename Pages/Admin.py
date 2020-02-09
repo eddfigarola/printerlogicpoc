@@ -2,6 +2,17 @@ import SeleniumFramework.SeleniumUtils
 
 selenium_utils = SeleniumFramework.SeleniumUtils
 
+NODE_TITLE_ID = "node_title"
+DELETE_BUTTON_ID = "browse-delete"
+PRINTER_ICON_CLASS_NAME = "printer.icon.jstree-icon"
+NEW_FOLDER_BUTTON_ID = "newfolder"
+ADD_IP_LINK_ID = "addip_link"
+PRINTER_NAME_INPUT_ID = "PrinterName"
+PRINTER_LOCATION_INPUT_ID = "PrinterLocation_popup"
+IP_ADDRESS_INPUT_ID = "IPAddress"
+PRINTER_COMMENT_INPUT_ID = "PrinterComment_popup"
+ADD_IP_BUTTON_ID = "add_ip_close"
+
 
 class Admin:
 
@@ -9,36 +20,26 @@ class Admin:
         selenium_utils.wait_for_element_by_id(self, "node_title")
 
     def delete_printer_by_index(self, index):
-        delete_button = "browse-delete"
-        printer_checkbox = self.find_elements_by_class_name("printer.icon.jstree-icon")[index].find_element_by_xpath('..')
+        printer_checkbox = self.find_elements_by_class_name(PRINTER_ICON_CLASS_NAME)[index].find_element_by_xpath(
+            '..')
         printer_id = printer_checkbox.find_element_by_xpath('..').get_attribute("id")
         printer_checkbox.click()
         printer_checkbox.click()
-        selenium_utils.click_element_by_id(self, delete_button)
-        alert_obj = self.switch_to.alert
-        alert_obj.accept()
+        selenium_utils.click_element_by_id(self, DELETE_BUTTON_ID)
+        selenium_utils.accept_alert(self)
         selenium_utils.wait_for_element_disappears_by_id(self, printer_id)
 
-
     def add_new_printer(self):
-        new_folder_button = "newfolder"
-        add_ip_link = "addip_link"
-        printer_name_input = "PrinterName"
-        printer_location_input = "PrinterLocation_popup"
-        ip_address_input = "IPAddress"
-        printer_comment_input = "PrinterComment_popup"
-        add_ip_button = "add_ip_close"
-        selenium_utils.wait_for_element_by_id(self, new_folder_button)
-        selenium_utils.click_element_by_id(self,new_folder_button)
-        selenium_utils.wait_for_element_by_id(self, add_ip_link)
-        selenium_utils.click_element_by_id(self, add_ip_link)
-        selenium_utils.wait_for_element_by_id(self, printer_name_input)
-        selenium_utils.send_data(self, printer_name_input, "test")
-        selenium_utils.send_data(self, printer_location_input, "test")
-        selenium_utils.send_data(self, ip_address_input, "test")
-        selenium_utils.send_data(self, printer_comment_input, "test")
-        selenium_utils.click_element_by_id(self, add_ip_button)
+        selenium_utils.wait_for_element_by_id(self, NEW_FOLDER_BUTTON_ID)
+        selenium_utils.click_element_by_id(self, NEW_FOLDER_BUTTON_ID)
+        selenium_utils.wait_for_element_by_id(self, ADD_IP_LINK_ID)
+        selenium_utils.click_element_by_id(self, ADD_IP_LINK_ID)
+        selenium_utils.wait_for_element_by_id(self, PRINTER_NAME_INPUT_ID)
+        selenium_utils.send_data(self, PRINTER_NAME_INPUT_ID, "Test")
+        selenium_utils.send_data(self, PRINTER_LOCATION_INPUT_ID, "Test")
+        selenium_utils.send_data(self, IP_ADDRESS_INPUT_ID, "Test")
+        selenium_utils.send_data(self, PRINTER_COMMENT_INPUT_ID, "Test")
+        selenium_utils.click_element_by_id(self, ADD_IP_BUTTON_ID)
 
     def get_count_of_printer(self):
-        printer_icon_class = "printer.icon.jstree-icon"
-        return selenium_utils.get_count_of_elements_with_class(self, printer_icon_class)
+        return selenium_utils.get_count_of_elements_with_class(self, PRINTER_ICON_CLASS_NAME)

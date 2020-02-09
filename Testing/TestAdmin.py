@@ -14,7 +14,7 @@ admin_page = Pages.Admin.Admin
 general_tab = Pages.General.General
 
 
-class SeleniumTestsAdmin(unittest.TestCase):
+class TestAdmin(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):

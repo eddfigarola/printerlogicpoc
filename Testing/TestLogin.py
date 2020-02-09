@@ -12,7 +12,7 @@ login_page = Pages.Login.Login
 admin_page = Pages.Admin.Admin
 
 
-class SeleniumTests(unittest.TestCase):
+class TestLogin(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):

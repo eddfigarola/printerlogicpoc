@@ -3,6 +3,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+def accept_alert(self):
+    alert_obj = self.switch_to.alert
+    alert_obj.accept()
+
+
 def wait_for_element_by_id(self, _id):
     WebDriverWait(self, 10).until(EC.presence_of_element_located((By.ID, _id)))
 
