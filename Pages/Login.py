@@ -1,6 +1,8 @@
 import SeleniumFramework.SeleniumUtils
+import Config.config
 
 selenium_utils = SeleniumFramework.SeleniumUtils
+config = Config.config
 
 
 class Login:
@@ -14,8 +16,8 @@ class Login:
             user = (args[0])
             password = (args[1])
         else:
-            user = "efigarola"
-            password = "password2020"
+            user = config.default_username
+            password = config.default_username
 
         selenium_utils.send_data(self, "relogin_user", user)
         selenium_utils.send_data(self, "relogin_password", password)
