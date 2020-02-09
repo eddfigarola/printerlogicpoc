@@ -4,7 +4,9 @@ import SeleniumFramework.SeleniumUtils
 import Pages.Login
 import Pages.Admin
 import Pages.General
+import Config.config
 
+config = Config.config
 get_driver = SeleniumFramework.Driver.Driver
 selenium_utils = SeleniumFramework.SeleniumUtils
 login_page = Pages.Login.Login
@@ -20,7 +22,7 @@ class SeleniumTestsAdmin(unittest.TestCase):
 
     def setUp(self):
         self.driver = get_driver.get_driver()
-        self.driver.get("https://trial2020.printercloud.com/admin/")
+        self.driver.get(config.default_url)
         login_page.wait_until_page_loads(self.driver)
         login_page.fill_login_form(self.driver)
         admin_page.wait_until_page_loads(self.driver)

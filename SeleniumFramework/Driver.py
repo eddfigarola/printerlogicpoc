@@ -1,12 +1,18 @@
 from selenium import webdriver
 
+from selenium.webdriver.firefox.options import Options
+import Config.config
+
+config = Config.config
+
 
 class Driver:
 
-
     @staticmethod
     def get_driver():
-        return webdriver.Firefox(service_log_path='../Logs/geckodriver.log')
+        options = Options()
+        options.headless = config.headless
+        return webdriver.Firefox(options=options, service_log_path='../Logs/geckodriver.log')
 
     @staticmethod
     def close_driver(driver):
