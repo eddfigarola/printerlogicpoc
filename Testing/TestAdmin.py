@@ -27,6 +27,13 @@ class TestAdmin(unittest.TestCase):
         login_page.fill_login_form(self.driver)
         admin_page.wait_until_page_loads(self.driver)
 
+    def test_add_printer_empty_form(self):
+        initial_printers_count = admin_page.get_count_of_printer(self.driver)
+        admin_page.add_new_printer(self.driver, "", "")
+        selenium_utils.accept_alert(self.driver)
+        final_printers_count = admin_page.get_count_of_printer(self.driver)
+        assert (final_printers_count == initial_printers_count)
+
     def test_add_printer(self):
         initial_printers_count = admin_page.get_count_of_printer(self.driver)
         admin_page.add_new_printer(self.driver)

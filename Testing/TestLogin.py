@@ -22,12 +22,11 @@ class TestLogin(unittest.TestCase):
         self.driver = get_driver.get_driver()
 
     def test_login(self):
-        user_name = "efigarola"
         self.driver.get(config.default_url)
         login_page.wait_until_page_loads(self.driver)
         login_page.fill_login_form(self.driver)
         admin_page.wait_until_page_loads(self.driver)
-        assert (selenium_utils.is_element_with_text(self.driver, "user-menu", user_name))
+        assert (selenium_utils.is_element_with_text(self.driver, "user-menu", config.default_username))
 
     def test_login_empty_form(self):
         user_name = ""

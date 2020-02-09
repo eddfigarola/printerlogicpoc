@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+DEFAULT_WAIT_TIME = 30
+
 
 def accept_alert(self):
     alert_obj = self.switch_to.alert
@@ -9,11 +11,11 @@ def accept_alert(self):
 
 
 def wait_for_element_by_id(self, _id):
-    WebDriverWait(self, 10).until(EC.presence_of_element_located((By.ID, _id)))
+    WebDriverWait(self, DEFAULT_WAIT_TIME).until(EC.presence_of_element_located((By.ID, _id)))
 
 
 def wait_for_element_disappears_by_id(self, _id):
-    WebDriverWait(self, 10).until(EC.invisibility_of_element((By.ID, _id)))
+    WebDriverWait(self, DEFAULT_WAIT_TIME).until(EC.invisibility_of_element((By.ID, _id)))
 
 
 def send_data(driver, __element_id, __data):
@@ -25,6 +27,10 @@ def send_data(driver, __element_id, __data):
 def get_element_text_by_id(driver, __element_id):
     wait_for_element_by_id(driver, __element_id)
     return driver.find_element_by_id(__element_id).get_attribute("text")
+
+
+def drag_element_by_id(driver, _id, __x, __y):
+    wait_for_element_by_id(driver, _id)
 
 
 def click_element_by_id(driver, _id):
