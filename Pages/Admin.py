@@ -8,6 +8,18 @@ class Admin:
     def wait_until_page_loads(self):
         selenium_utils.wait_for_element_by_id(self, "node_title")
 
+    def delete_printer_by_index(self, index):
+        delete_button = "browse-delete"
+        printer_checkbox = self.find_elements_by_class_name("printer.icon.jstree-icon")[index].find_element_by_xpath('..')
+        printer_id = printer_checkbox.find_element_by_xpath('..').get_attribute("id")
+        printer_checkbox.click()
+        printer_checkbox.click()
+        selenium_utils.click_element_by_id(self, delete_button)
+        alert_obj = self.switch_to.alert
+        alert_obj.accept()
+        selenium_utils.wait_for_element_disappears_by_id(self, printer_id)
+
+
     def add_new_printer(self):
         new_folder_button = "newfolder"
         add_ip_link = "addip_link"

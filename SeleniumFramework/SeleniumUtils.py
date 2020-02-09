@@ -7,6 +7,10 @@ def wait_for_element_by_id(self, _id):
     WebDriverWait(self, 10).until(EC.presence_of_element_located((By.ID, _id)))
 
 
+def wait_for_element_disappears_by_id(self, _id):
+    WebDriverWait(self, 10).until(EC.invisibility_of_element((By.ID, _id)))
+
+
 def send_data(driver, __element_id, __data):
     wait_for_element_by_id(driver, __element_id)
     elem = driver.find_element_by_id(__element_id)
