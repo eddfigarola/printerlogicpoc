@@ -9,6 +9,7 @@ PASSWORD_INPUT_ID = "relogin_password"
 LOGIN_SUBMIT_BUTTON = "admin-login-btn"
 LOGIN_MESSAGE_ID = "logintext"
 
+
 class Login:
 
     def wait_until_page_loads(self):

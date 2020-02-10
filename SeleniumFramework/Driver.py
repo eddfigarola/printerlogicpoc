@@ -1,9 +1,8 @@
 from selenium import webdriver
-
 from selenium.webdriver.firefox.options import Options
-import Config.config
+from Config import config
 
-config = Config.config
+config = config
 
 
 class Driver:

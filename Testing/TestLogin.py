@@ -1,15 +1,13 @@
 import unittest
-import SeleniumFramework.Driver
-import SeleniumFramework.SeleniumUtils
-import Pages.Login
-import Pages.Admin
-import Config.config
+from SeleniumFramework import Driver, SeleniumUtils
+from Pages import Login, Admin
+from Config import config
 
-config = Config.config
-get_driver = SeleniumFramework.Driver.Driver
-selenium_utils = SeleniumFramework.SeleniumUtils
-login_page = Pages.Login.Login
-admin_page = Pages.Admin.Admin
+config = config
+get_driver = Driver.Driver
+selenium_utils = SeleniumUtils
+login_page = Login.Login
+admin_page = Admin.Admin
 
 
 class TestLogin(unittest.TestCase):
