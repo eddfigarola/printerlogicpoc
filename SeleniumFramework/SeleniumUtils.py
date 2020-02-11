@@ -14,13 +14,17 @@ def wait_for_element_by_id(self, _id):
     WebDriverWait(self, DEFAULT_WAIT_TIME).until(EC.presence_of_element_located((By.ID, _id)))
 
 
+def wait_for_element(self, __selector, _selector_value):
+    WebDriverWait(self, DEFAULT_WAIT_TIME).until(EC.presence_of_element_located((__selector, _selector_value)))
+
+
 def wait_for_element_disappears_by_id(self, _id):
     WebDriverWait(self, DEFAULT_WAIT_TIME).until(EC.invisibility_of_element((By.ID, _id)))
 
 
-def send_data(driver, __element_id, __data):
-    wait_for_element_by_id(driver, __element_id)
-    elem = driver.find_element_by_id(__element_id)
+def send_data(driver, __selector, __selector_value, __data):
+    wait_for_element(driver, __selector, __selector_value)
+    elem = driver.find_element(__selector, __selector_value)
     elem.send_keys(__data)
 
 
@@ -31,6 +35,12 @@ def get_element_text_by_id(driver, __element_id):
 
 def drag_element_by_id(driver, _id, __x, __y):
     wait_for_element_by_id(driver, _id)
+
+
+def click_element(driver, __selector, __selector_value):
+    wait_for_element(driver, __selector, __selector_value)
+    elem = driver.find_element(__selector, __selector_value)
+    elem.click()
 
 
 def click_element_by_id(driver, _id):

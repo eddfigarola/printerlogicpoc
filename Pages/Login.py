@@ -25,8 +25,8 @@ class Login:
             user = config.default_username
             password = config.default_password
 
-        selenium_utils.send_data(self, Login.USER_NAME_INPUT_ID, user)
-        selenium_utils.send_data(self, Login.PASSWORD_INPUT_ID, password)
+        selenium_utils.send_data(self, By.ID, Login.USER_NAME_INPUT_ID, user)
+        selenium_utils.send_data(self, By.ID, Login.PASSWORD_INPUT_ID, password)
         selenium_utils.click_element(self, By.ID, Login.LOGIN_SUBMIT_BUTTON)
 
     def get_login_message(self):
