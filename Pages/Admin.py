@@ -33,7 +33,7 @@ class Admin:
         printer_checkbox.click()
         selenium_utils.click_element(self, By.ID, Admin.DELETE_BUTTON_ID)
         selenium_utils.accept_alert(self)
-        selenium_utils.wait_for_element_disappears_by_id(self, printer_id)
+        selenium_utils.wait_for_element_disappears(self, By.ID, printer_id)
 
     def add_new_printer(self, *args):
         if len(args) > 1:
@@ -50,7 +50,7 @@ class Admin:
         selenium_utils.click_element(self, By.ID, Admin.NEW_FOLDER_BUTTON_ID)
         selenium_utils.wait_for_element(self, By.ID, Admin.ADD_IP_LINK_ID)
         selenium_utils.click_element(self, By.ID, Admin.ADD_IP_LINK_ID)
-        selenium_utils.wait_for_element_by_id(self, Admin.PRINTER_NAME_INPUT_ID)
+        selenium_utils.wait_for_element(self, By.ID, Admin.PRINTER_NAME_INPUT_ID)
         selenium_utils.send_data(self, By.ID, Admin.PRINTER_NAME_INPUT_ID, default_printer_name)
         selenium_utils.send_data(self, By.ID, Admin.PRINTER_LOCATION_INPUT_ID, default_printer_location)
         selenium_utils.send_data(self, By.ID, Admin.IP_ADDRESS_INPUT_ID, default_printer_ip_address)
